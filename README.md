@@ -14,7 +14,7 @@
 <h3 align="center">CoderComm</h3>
 
   <p align="center">
-    A full-stack MERN application
+    A full-stack MERN social media application developed using CRUD operations and follows RESTful APIs.
     <br />
     <br />
     <br />
@@ -77,6 +77,8 @@ Users can send friend requests to other users who have an open relationship with
 ##### Frontend:
 
 [![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
+[![Axios](https://img.shields.io/badge/Axios-007ACC?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 [![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)](https://material-ui.com/)
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
 
@@ -129,16 +131,6 @@ Users can send friend requests to other users who have an open relationship with
 - As a user, I can accept or decline a friend request.
 - As a user, I can cancel a friend request that I sent.
 - As a user, I can remove somebody from my friendlist.
-
-### Api Endpoints Examples:
-
-```js
-/**
- * @route POST /auth/login
- * @description Log in with email and password
- * @access Public
- */
-```
 
 ## Getting Started
 
