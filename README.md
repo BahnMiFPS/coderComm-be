@@ -14,7 +14,7 @@
 <h3 align="center">CoderComm</h3>
 
   <p align="center">
-    CoderComm is a social network that allows people to join by creating accounts.
+    A full-stack MERN application
     <br />
     <br />
     <br />
@@ -144,12 +144,12 @@ Users can send friend requests to other users who have an open relationship with
 
 ### Client:
 
+- Clone this repo `https://github.com/BahnMiFPS/codercomm`
 - Register for a [Cloudinary](https://cloudinary.com/) account. And create a **unsigned** upload preset: https://cloudinary.com/documentation/upload_presets
-
 - Create `/.env`:
 
 ```
-REACT_APP_BACKEND_API='https://codercomm-be-production.up.railway.app/api/'
+REACT_APP_BACKEND_API='https://codercomm-be-production.up.railway.app/api/ or http://localhost:5000/api/'
 REACT_APP_CLOUDINARY_CLOUD_NAME = 'cloudinary-cloud-name'
 REACT_APP_CLOUDINARY_UPLOAD_PRESET = 'cloudinary-upload-preset'
 ```
@@ -160,6 +160,7 @@ The upload preset of your cloudinary should be **unsigned**.
 
 ### Server:
 
+- Clone this repo `https://github.com/BahnMiFPS/coderComm-be`
 - Create `/.env`:
 
 ```
